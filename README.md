@@ -27,6 +27,10 @@ ToDo
 * [Truffle Framework](https://www.trufflesuite.com/) - Testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
 * [Metamask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
 
+## PoC 
+
+![alt text](.documentation/poc.gif)
+
 ## Autores ✒️
 
 * **Oscar Martínez** - [github](https://github.com/omartinex)
