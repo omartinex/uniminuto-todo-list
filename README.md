@@ -30,15 +30,21 @@ Para realizar la instalación de prerequisitos se pueden seguir los
 
 * nodeJs
 
-```bash
+```console
 sudo apt install nodejs npm
 ```
 
 * Truffle Framework
 
-```bash
+```console
 npm install -g truffle@5.0.2
 ```
+
+* Ganache
+
+    Descargar la AppImage 
+
+    https://github.com/trufflesuite/ganache/releases/download/v2.4.0/ganache-2.4.0-linux-x86_64.AppImage
 
 * Metamask
 
@@ -48,12 +54,23 @@ npm install -g truffle@5.0.2
 
 ## Configuración del proyecto
 
+Iniciamos con la creación del directorio paara el proyecto
 
+```console
+$ mkdir todo-list
+$ cd todo-list
+```
+
+Dentro del directorio se inicializa un proyecto de Truffle
+
+```console
+$ truffle init
+```
 
 
 ## Ejecutando las pruebas ⚙️
 
-```bash
+```shell
 truffle test
 ```
 
