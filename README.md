@@ -1,14 +1,55 @@
 # ToDo List basado en Ethereum smart contracts
 
-_Construyendo una aplicación de Lista de Quehaceres (ToDo List)_
+_Construyendo una aplicación web de Lista de Quehaceres (ToDo List)_
+
+## Prerequisitos 🛠️
+
+* [NodeJS](https://nodejs.org/es/) - El framework web usado
+* [Ganache](https://www.trufflesuite.com/ganache) - Ethereum blockchain personal.
+
+    Ganache es una herramienta de desarrollo local que se puede utilizar para imitar el comportamiento de una blockchain pública. Recomiendo usar Ganache como su blockchain personal para el desarrollo de Ethereum. Permite implementar contratos inteligentes, desarrollar aplicaciones y ejecutar pruebas. ¡Está disponible en Windows, Mac y Linux como una aplicación de escritorio y una herramienta de línea de comandos!
+
+* [Truffle Framework](https://www.trufflesuite.com/) - Testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
+
+    Truffle Framework, provee un conjunto de herramientas para desarrollar Ethereum smart contacts con el lenguaje de programación Solidity.
+
+* [Metamask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
+
+    MetaMask es una extension para acceder aplicaciones distrubuidas sobre Ethereum, o "Dapps" desde Chrome browser!
+
+    La extension injecta la API de web3 de Ethereum a cada contexto javascript del sitio web, para que las Dapps puedan leer la blockchain.
 
 ## Comenzando 🚀
 
-ToDo
+Este proyecto se desarrolla sobre Ubuntu, por lo que esta guia asume que se está utilizando un sistema basado en UNIX
 
-### Instalación 🔧
+## Instalación 🔧
 
-ToDo
+Para realizar la instalación de prerequisitos se pueden seguir los 
+
+
+* nodeJs
+
+```bash
+sudo apt install nodejs npm
+```
+
+* Truffle Framework
+
+```bash
+npm install -g truffle@5.0.2
+```
+
+* Metamask
+
+    Instalar la extensión desde la Chrome Web Store 
+
+    https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+
+## Configuración del proyecto
+
+
+
 
 ## Ejecutando las pruebas ⚙️
 
@@ -19,13 +60,6 @@ truffle test
 ## Despliegue 📦
 
 ToDo
-
-## Construido con 🛠️
-
-* [NodeJS](https://nodejs.org/es/) - El framework web usado
-* [Ganache](https://www.trufflesuite.com/ganache) - Ethereum blockchain personal
-* [Truffle Framework](https://www.trufflesuite.com/) - Testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
-* [Metamask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
 
 ## PoC 
 
