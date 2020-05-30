@@ -66,6 +66,9 @@ Dentro del directorio se inicializa un proyecto de Truffle
 ```console
 $ truffle init
 ```
+![truffle init](.documentation/truffle_init.png)
+
+
 
 
 ## Ejecutando las pruebas ⚙️
