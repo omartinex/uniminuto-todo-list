@@ -2,6 +2,10 @@
 
 _Construyendo una aplicación web de Lista de Quehaceres (ToDo List)_
 
+### Arquitectura
+
+![arch](https://i.ibb.co/BrYhz5p/Diagrama.png)
+
 ## Prerequisitos 🛠️
 
 * [git](https://git-scm.com/) - Control de versiones
