@@ -128,7 +128,23 @@ truffle test
 
 ## Despliegue 📦
 
-ToDo
+Clonar el repo
+
+```console
+git clone https://github.com/omartinex/uniminuto-todo-list/
+```
+
+Ingresar al directorio
+
+```console
+cd uniminuto-todo-list
+```
+
+Correr http server
+
+```console
+$ npm run dev
+```
 
 ## PoC 
 
@@ -141,13 +157,6 @@ ToDo
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-
-
 
 ---
 ⌨️ con ❤️ por [omartinex](https://github.com/omartinex) 😊
