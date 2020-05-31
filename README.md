@@ -4,7 +4,10 @@ _Construyendo una aplicación web de Lista de Quehaceres (ToDo List)_
 
 ## Prerequisitos 🛠️
 
+* [git](https://git-scm.com/) - Control de versiones
+
 * [NodeJS](https://nodejs.org/es/) - El framework web usado
+
 * [Ganache](https://www.trufflesuite.com/ganache) - Ethereum blockchain personal.
 
     Ganache es una herramienta de desarrollo local que se puede utilizar para imitar el comportamiento de una blockchain pública. Recomiendo usar Ganache como su blockchain personal para el desarrollo de Ethereum. Permite implementar contratos inteligentes, desarrollar aplicaciones y ejecutar pruebas. ¡Está disponible en Windows, Mac y Linux como una aplicación de escritorio y una herramienta de línea de comandos!
@@ -98,6 +101,24 @@ Ahora creamos un archivo `package.json` donde se definen las dependencias necesa
 }
 ```
 
+Ahora se pueden instalar las dependencias desde la CLI:
+
+```console
+$ npm install
+```
+La estructura de directorios del proyecto se ve de esta forma:
+
+![estructura](https://i.ibb.co/DGbrWZ5/Captura-de-pantalla-de-2020-05-30-19-47-59.png)
+
+* contracts directory: en este directorio residen los smart contacts.
+
+* migrations directory: en este directorio residen los archivos de migraciones. Estas migraciones son similares a otros frameworks que requieren mirgaciones para cambiar el estado de una base de datos. Siempre que se despliegan smart contracts a la blockchain, se actualiza el estado de la blockchain, por consiguiente se necesita una migración.
+
+* node_modules directory: este directorio contiene las dependencias isntaladas anteriormente.
+
+* test directory: en este directorio se definen los tests para los smart contract.
+
+* truffle-config.js file: este archivo es el principal archivo de configuración del proyecto Truffle, se usa para definir parametros como la configuración de red.
 
 ## Ejecutando las pruebas ⚙️
 
