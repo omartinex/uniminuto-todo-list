@@ -171,12 +171,17 @@ $ npm run dev
 
 * Configurar Metamask
 
-  * En Ganache seleccionar la dirección que va a realizar las transacciones
+  * En Ganache seleccionar la dirección que va a realizar las transacciones y seleccionar `Show keys`
 
   ![dir](https://i.ibb.co/JzJn9xP/Captura-de-pantalla-de-2020-05-30-20-49-51.png)
 
-  *
+  * Copiar la llave privada
 
+  ![pkey](https://i.ibb.co/6wmNmKL/Captura-de-pantalla-de-2020-05-30-20-50-03.png)
+
+  * En Metamask, seleccionar la blockchain local y añadir una cuenta importando la llave privada
+
+  ![Metamask](https://i.ibb.co/NsBxjXC/Captura-de-pantalla-de-2020-05-30-20-50-33.png) 
 
 
 
