@@ -156,7 +156,7 @@ cd uniminuto-todo-list
 $ truffle migrate
 ```
 
-    * _Si se cambia el código del smart contract, se debe redesplegar ya que el código desplegado anteriormente es inmmutable. En este caso se añade la opcion `--reset` al comando `truffle migrate`._
+      _Si se cambia el código del smart contract, se debe redesplegar ya que el código desplegado anteriormente es inmmutable. En este caso se añade la opcion `--reset` al comando `truffle migrate`._
 
 ![migrate](https://i.ibb.co/x8rmS6T/Captura-de-pantalla-de-2020-05-31-17-09-01.png)
 
