@@ -183,7 +183,9 @@ _Desde el navegador acceder a `http://localhost:3000`_
 
   ![Metamask](https://i.ibb.co/NsBxjXC/Captura-de-pantalla-de-2020-05-30-20-50-33.png) 
 
+Desde el navegador se debe ver una nueva tarea creada por default y se pueden crear y marcar como completadas nuevas tareas.
 
+![Dapp](https://i.ibb.co/W2XwRTR/Captura-de-pantalla-de-2020-05-31-17-55-58.png)
 
 
 ## PoC 
