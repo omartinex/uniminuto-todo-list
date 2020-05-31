@@ -192,6 +192,11 @@ Desde el navegador se debe ver una nueva tarea creada por default y se pueden cr
 
 ![alt text](https://i.ibb.co/kHRjhWh/poc.gif)
 
+## Next steps 🏗
+
+* Implementar validación de Items para evitar items repetidos
+* Dockerizar algunos componentes 
+
 ## Autores ✒️
 
 * **Oscar Martínez** - [github](https://github.com/omartinex)
