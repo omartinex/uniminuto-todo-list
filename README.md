@@ -66,7 +66,7 @@ Dentro del directorio se inicializa un proyecto de Truffle
 ```console
 $ truffle init
 ```
-![truffle init](.documentation/truffle_init.png)
+![truffle init](https://i.ibb.co/PgJPsWd/truffle-init.png)
 
 Ahora creamos un archivo `package.json` donde se definen las dependencias necesarias para el proyecto.
 
@@ -111,7 +111,7 @@ ToDo
 
 ## PoC 
 
-![alt text](.documentation/poc.gif)
+![alt text](https://i.ibb.co/kHRjhWh/poc.gif)
 
 ## Autores ✒️
 
