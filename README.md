@@ -128,6 +128,10 @@ truffle test
 
 ## Despliegue 📦
 
+Iniciar Ganache y hacer clic en `QUICKSTART ETEHREUM` para iniciar la blockchain local.
+
+![ganache](https://i.ibb.co/wLdMjJ2/Captura-de-pantalla-de-2020-05-30-20-46-25.png)
+
 Clonar el repo
 
 ```console
@@ -145,6 +149,9 @@ Correr http server
 ```console
 $ npm run dev
 ```
+![npm run dev](https://i.ibb.co/zNmPygL/Captura-de-pantalla-de-2020-05-30-20-43-59.png)
+
+Desde el navegador acceder a http://localhost:3000
 
 ## PoC 
 
