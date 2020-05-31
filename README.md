@@ -167,7 +167,7 @@ $ npm run dev
 ```
   ![npm run dev](https://i.ibb.co/zNmPygL/Captura-de-pantalla-de-2020-05-30-20-43-59.png)
 
-    * Desde el navegador acceder a http://localhost:3000
+    _Desde el navegador acceder a `http://localhost:3000`_
 
 * Configurar Metamask
 
