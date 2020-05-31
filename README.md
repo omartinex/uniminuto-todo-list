@@ -132,30 +132,54 @@ truffle test
 
 ## Despliegue 📦
 
-Iniciar Ganache y hacer clic en `QUICKSTART ETEHREUM` para iniciar la blockchain local.
+* Iniciar Ganache y hacer clic en `QUICKSTART ETEHREUM` para iniciar la blockchain local.
 
 ![ganache](https://i.ibb.co/wLdMjJ2/Captura-de-pantalla-de-2020-05-30-20-46-25.png)
 
-Clonar el repo
+* Clonar el repo
 
 ```console
 git clone https://github.com/omartinex/uniminuto-todo-list/
 ```
 
-Ingresar al directorio
+* Ingresar al directorio
 
 ```console
 cd uniminuto-todo-list
 ```
 
-Correr http server
+* Migrar los contratos a la blockchain
+
+  * esto permite migrar a la blockchain los contratos que se han definido en el archivo `Migrations.sol`
+
+```console
+$ truffle migrate
+```
+
+  * _Si se cambia el código del smart contract, se debe redesplegar ya que el código desplegado anteriormente es inmmutable. En este caso se añade la opcion `--reset` al comando `truffle migrate`._
+
+![migrate](https://i.ibb.co/x8rmS6T/Captura-de-pantalla-de-2020-05-31-17-09-01.png)
+
+* Correr http server
 
 ```console
 $ npm run dev
 ```
 ![npm run dev](https://i.ibb.co/zNmPygL/Captura-de-pantalla-de-2020-05-30-20-43-59.png)
 
-Desde el navegador acceder a http://localhost:3000
+        * Desde el navegador acceder a http://localhost:3000
+
+* Configurar Metamask
+
+  * En Ganache seleccionar la dirección que va a realizar las transacciones
+
+  ![dir](https://i.ibb.co/JzJn9xP/Captura-de-pantalla-de-2020-05-30-20-49-51.png)
+
+  *
+
+
+
+
 
 ## PoC 
 
