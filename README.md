@@ -165,7 +165,7 @@ _Si se cambia el código del smart contract, se debe redesplegar ya que el códi
 ```console
 $ npm run dev
 ```
-![npm run dev](https://i.ibb.co/zNmPygL/Captura-de-pantalla-de-2020-05-30-20-43-59.png)
+  ![npm run dev](https://i.ibb.co/zNmPygL/Captura-de-pantalla-de-2020-05-30-20-43-59.png)
 
         * Desde el navegador acceder a http://localhost:3000
 
