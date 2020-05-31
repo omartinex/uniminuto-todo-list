@@ -4,7 +4,7 @@ _Construyendo una aplicación web de Lista de Quehaceres (ToDo List)_
 
 ### Arquitectura
 
-![arch](https://i.ibb.co/BrYhz5p/Diagrama.png)
+![arch](https://i.ibb.co/mttGGGM/Captura-de-pantalla-de-2020-05-31-17-01-47.png)
 
 ## Prerequisitos 🛠️
 
